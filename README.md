@@ -67,10 +67,11 @@ This project is built using:
 
 
 
-Example:
+
 <img width="1920" height="1080" alt="Screenshot (659)" src="https://github.com/user-attachments/assets/4f95130e-5a77-4cc9-93d4-c8c2e71c9bdf" />
 
 <img width="1920" height="1080" alt="Screenshot (661)" src="https://github.com/user-attachments/assets/e244b088-7071-49b1-a6c1-a87d6ba59e97" />
+
 <img width="1920" height="1080" alt="Screenshot (662)" src="https://github.com/user-attachments/assets/e6990232-d00a-4c41-991a-d8419ff37785" />
 
 
