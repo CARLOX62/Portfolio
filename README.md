@@ -187,7 +187,7 @@ If you’d like to improve this project:
 
 Feel free to reach out:
 
-* 📧 Email: [your-email@example.com](mailto:your-aniketkumarsonu62@gmail.com)
+* 📧 Email: [aniketkumarsonu62@gmail.com](mailto:your-aniketkumarsonu62@gmail.com)
 * 💼 LinkedIn: https://www.linkedin.com/in/aniket-kumar-7b4104298/
 * 💻 GitHub: https://github.com/CARLOX62
 
