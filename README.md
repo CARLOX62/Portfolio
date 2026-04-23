@@ -120,6 +120,14 @@ Follow these steps to run the project locally:
 
 ---
 
+## 🌐 Live Demo
+
+<p align="center">
+  <a href="https://carlox62.github.io/Portfolio/" target="_blank">
+    <img src="https://img.shields.io/badge/🚀%20View%20Portfolio-Live-blue?style=for-the-badge" />
+  </a>
+</p>
+
 ## 🚀 Usage
 
 * Open the website in your browser
