@@ -1150,7 +1150,7 @@ hr {
 /* Dot on line */
 .exp-dot {
   position: absolute;
-  left: -32.5px;
+  left: -30.5px;
   top: 18px;
   width: 16px;
   height: 16px;
@@ -1396,7 +1396,7 @@ hr {
   }
 
   .exp-dot {
-    left: -23px;
+    left: -21.5px;
     width: 14px;
     height: 14px;
   }
