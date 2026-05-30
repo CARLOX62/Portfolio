@@ -66,7 +66,7 @@ if (downloadBtn) {
 
     // ✅ Download logic
     const link = document.createElement("a");
-    link.href = "assets\\aniket_frontend_resume.pdf";
+    link.href = "assets\\Aniket_Kumar_Resume.pdf";
     link.download = "Aniket_Kumar_Resume.pdf";
     document.body.appendChild(link);
     link.click();
