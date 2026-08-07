@@ -1981,9 +1981,9 @@ hr {
 
 /* Per-platform colors */
 .profile-github {
-  --profile-glow: rgba(36, 41, 46, 0.12);
-  --profile-shadow: rgba(0, 0, 0, 0.2);
-  --profile-border: rgba(0, 0, 0, 0.25);
+  --profile-glow: rgba(71, 74, 240, 0.10);
+  --profile-shadow: rgba(71, 74, 240, 0.18);
+  --profile-border: rgba(71, 74, 240, 0.35);
 }
 
 .profile-kaggle {
@@ -2091,26 +2091,47 @@ hr {
 }
 
 .profile-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
-  padding: 8px 20px;
-  border-radius: 50px;
-  background: var(--accent-soft);
-  color: var(--accent);
-  font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.3px;
-  transition: all 0.2s;
-  margin-top: 4px;
-  border: 1px solid rgba(71, 74, 240, 0.2);
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    transition: all 0.25s ease;
+    margin-top: 4px;
+
+    /* Normal state */
+    background: color-mix(
+        in srgb,
+        var(--profile-color) 10%,
+        transparent
+    );
+
+    color: var(--profile-color);
+
+    border: 1px solid color-mix(
+        in srgb,
+        var(--profile-color) 25%,
+        transparent
+    );
 }
 
+/* Hover state */
 .profile-card:hover .profile-btn {
-  background: var(--accent);
-  color: #fff;
-  box-shadow: 0 6px 16px rgba(71, 74, 240, 0.35);
+    background: var(--profile-color);
+    color: #fff;
+    border-color: var(--profile-color);
+
+    box-shadow: 0 6px 16px color-mix(
+        in srgb,
+        var(--profile-color) 35%,
+        transparent
+    );
+
+    transform: translateY(-2px);
 }
 
 /* Responsive */
